@@ -83,7 +83,7 @@ RuleSet: TSProfile (id, reference)
 //* insert TSProfile(uscore-patient-profile,"http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient")
 
 * profile[+].id = "{id}"
-* profile[=].reference = {reference}"
+* profile[=].reference = {reference}
 
 // =================================================
 // TestScript variable declarations

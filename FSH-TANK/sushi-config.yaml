@@ -1,0 +1,28 @@
+# ╭────────────────────────────ImplementationGuide-Test Resources.json─────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: testresources
+canonical: http://hl7.org/fhir/testresources
+version: 4.0.1
+name: TestResources
+title: Test Resources
+status: active
+publisher:
+  name: Richard Ettema
+  email: richard.ettema@aegis.net
+description: Testing IG to hold profiles needed for testing.
+fhirVersion: 4.0.1
+copyrightYear: 2022+
+releaseLabel: draft
+
+# ╭────────────────────────────────────────────index.md────────────────────────────────────────────╮
+# │  To use a provided ig-data\input\[pagecontent | pages]\index.[md | xml], delete the            │
+# │  "indexPageContent" property below.                                                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+indexPageContent: Testing IG to hold profiles needed for testing.
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+FSHOnly: true
