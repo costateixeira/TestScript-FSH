@@ -46,7 +46,7 @@
   ],
   "variable": [
     {
-      "name": "id",
+      "name": "patientResourceId",
       "defaultValue": "example",
       "hint": "[resource.id]",
       "description": "Enter a known resource id on the destination system."
@@ -71,7 +71,7 @@
             "destination": 1,
             "encodeRequestUrl": true,
             "origin": 1,
-            "params": "/${id}"
+            "params": "/${patientResourceId}"
           }
         },
         {
