@@ -9,13 +9,13 @@ Alias: $OPEXT = http://terminology.hl7.org/CodeSystem/testscript-operation-codes
 // TestScript meta data declaration
 // =================================================
 
-RuleSet: TSMetadata (id, date, title, description)
+RuleSet: TSMetadata (id, baseUrl, date, title, description)
 //sets basic Testscript metadata based on common fixed values in testscript authoring
 //example:
-//* insert TSMetadata(testscript-example,2022-06-07,"HL7 FHIR R4 (v4.0.1) TestScript Example","Example TestScript for profile validation")
+//* insert TSMetadata(testscript-example,http://hl7.org/fhir,2022-06-07,"HL7 FHIR R4 (v4.0.1) TestScript Example","Example TestScript for profile validation")
 
 * id = "{id}"
-* url = "http://hl7.org/fhir/TestScript/{id}"
+* url = "{baseUrl}/TestScript/{id}"
 * name = "{id}"
 * title = {title}
 * date = "{date}"
