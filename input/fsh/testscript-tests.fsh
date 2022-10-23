@@ -1,5 +1,5 @@
 RuleSet: read-validate-test(resource, instance_name, return_type, profile_name)
-* insert TSMetadata({instance_name}, 2022-06-08, "HL7 FHIR R4 TestScript Read Validate", "Example TestScript to test resource read and profile validation")
+* insert TSMetadata({instance_name}, http://hl7.org/fhir/us/carin-bb, 2022-06-08, "HL7 FHIR R4 TestScript Read Validate", "Example TestScript to test resource read and profile validation")
 * insert TSOrigin(1)
 * insert TSDestination(1)
 * insert TSBaseProfile({resource})

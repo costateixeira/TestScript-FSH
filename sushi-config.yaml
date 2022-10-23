@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: testresources
 canonical: http://hl7.org/fhir/testresources
-version: 4.0.1
+version: 5.0.0-cibuild
 name: TestResources
 title: Test Resources
 status: active
@@ -20,9 +20,9 @@ releaseLabel: draft
 # │  To use a provided ig-data\input\[pagecontent | pages]\index.[md | xml], delete the            │
 # │  "indexPageContent" property below.                                                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-indexPageContent: Testing IG to hold profiles needed for testing.
+# indexPageContent: Testing IG to hold profiles needed for testing.
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-FSHOnly: true
+FSHOnly: false
